@@ -1,19 +1,19 @@
 <div style="display: flex; align-items: center;">
-  <h1><img src="/static/images/icon.png" alt="App Icon" width="25" height="25"> MedAI</h1>
+ 
 </div>
 
 MedAI is a Flask application that utilizes AI algorithms to detect skin diseases and provide treatment susceptibility for patients. It offers an intelligent system that analyzes patient data and provides valuable insights for effective disease diagnosis and treatment planning.
 
 ## Preview
 
-![App Preview](/screenshot.png)
+
 
 ## Features
 
-- Skin Disease Detection: MedAI leverages advanced AI algorithms to analyze patient symptoms and data to accurately detect various diseases.
-- Treatment Susceptibility: Based on the detected disease, MedAI provides valuable information on treatment susceptibility, assisting healthcare professionals in making informed decisions.
-- User-Friendly Interface: MedAI offers an intuitive and easy-to-use interface, making it accessible for both medical professionals and patients.
-- Data Privacy and Security: MedAI prioritizes data privacy and security, ensuring that patient information is handled with the utmost confidentiality and adheres to industry standards.
+- Skin Disease Detection: Skin Disease Detection system leverages advanced AI algorithms to analyze patient symptoms and data to accurately detect various diseases.
+- Treatment Susceptibility: Based on the detected disease, it provides valuable information on treatment susceptibility, assisting healthcare professionals in making informed decisions.
+- User-Friendly Interface: It offers an intuitive and easy-to-use interface, making it accessible for both medical professionals and patients.
+- Data Privacy and Security: It prioritizes data privacy and security, ensuring that patient information is handled with the utmost confidentiality and adheres to industry standards.
 
 
 <!--h1 without bottom border-->
@@ -47,12 +47,12 @@ Make sure you have the following dependencies installed before running the proje
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/MedAI.git
+   git clone https://github.com/your-username/Skin-Disease-Detection-System.git
 
 2. Navigate to the project directory:
 
    ```bash
-   cd MedAI
+   cd Skin Disease Detection System
 
 3. Install the required dependencies:
 

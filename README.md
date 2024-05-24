@@ -64,10 +64,11 @@ Make sure you have the following dependencies installed before running the proje
    ```bash
    pip install -r requirements.txt
    
-### Usage
+### Run
 - Start the Flask development server:
-   ```bash
-   python3 app.py
+   
+   env/Scripts/activate
+   py app.py
   
 ### Open your web browser and visit the following URL:
 

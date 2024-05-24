@@ -6,7 +6,7 @@
 
 ## Preview
 
-![App Preview](/Screenshot (21).png)
+![App Preview](/Screenshot(21).png)
 
 
 

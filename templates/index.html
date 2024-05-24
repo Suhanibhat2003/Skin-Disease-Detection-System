@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
+    <title>MedicineAI</title>
+    <meta name="description" content="Skin Disease detection and treatment management susceptibility by AI">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="medicine, AI, disease detection, treatment management">
+    <meta name="author" content="MedAI">
+    <meta name="robots" content="index, follow">
+    
+    <!-- OpenGraph Meta Tags -->
+    <meta property="og:title" content="MedicineAI">
+    <meta property="og:description" content="Skin Disease detection and treatment management susceptibility by AI">
+    <meta property="og:image" content="/static/images/og-image.jpg">
+    <meta property="og:url" content="https://medai.onrender.com">
+    <meta property="og:type" content="website">
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+
+    <!-- JavaScript -->
+    <script src="/static/js/main.js"></script>
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skin Care</title>
+    <!-- Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+            border: none;
+            text-decoration: none !important;
+            text-transform: capitalize;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #58B2C9;
+        }
+
+        body {
+            background: #000;
+            color: #58B2C9;
+            width: 100%;
+            height: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header {
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+            background: #000;
+        }
+
+        header .logo {
+            font-size: 20px;
+            color: #58B2C9;
+        }
+
+        header .logo span {
+            color: #58B2C9;
+        }
+
+        header .nav a {
+            margin-left: 3px;
+            border-radius: 50px;
+            color: #58B2C9;
+            padding: 5px 15px;
+        }
+
+        header .nav a:hover {
+            background: #58B2C9;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+            color: #fff;
+        }
+
+        section {
+            background: #000;
+            color: #58B2C9;
+            padding: 20px 0;
+        }
+
+        section:nth-child(odd) {
+            background: #000;
+            color: #58B2C9;
+        }
+
+        .heading {
+            text-align: center;
+            padding: 0 15px;
+            padding-bottom: 5px;
+            color: #58B2C9;
+            font-size: 30px;
+        }
+
+        .heading span {
+            color: #58B2C9;
+        }
+
+        .link-btn {
+            display: inline-block;
+            background: #58B2C9;
+            color: black;
+            border-radius: 50px;
+            padding: 10px 25px;
+            font-size: 17px;
+            cursor: pointer;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+        }
+
+        .link-btn:hover {
+            color: #58B2C9;
+            background:white;
+        }
+
+        .box {
+            background: black;
+            border-radius: 5px;
+            text-align: center;
+            color: #58B2C9;
+        }
+
+        .box img {
+            margin-bottom: 10px;
+            height: 70px;
+        }
+
+        .box h3 {
+            font-size: 20px;
+            color: #58B2C9;
+        }
+
+        .box p {
+            font-size: 14px;
+            color: #58B2C9;
+        }
+
+        .footer .box {
+            flex: 1 1 250px;
+        }
+
+        .footer .box h3 {
+            font-size: 20px;
+            color: #58B2C9;
+        }
+
+        .footer .box p {
+            color: #777;
+        }
+
+        .footer .box a {
+            display: block;
+            font-size: 14px;
+            color: #777;
+            padding: 5px 0;
+        }
+
+        .footer .box a:hover {
+            color: #58B2C9;
+        }
+        .prevent {
+            background-color: #000;
+            color: #58B2C9;
+            padding: 20px 0;
+        }
+        .experts .box {
+            margin-bottom: 20px; /* Adjust the value as needed */
+        }
+
+        .experts .box img {
+            margin-bottom: 10px; /* Adjust the value as needed */
+        }
+        .experts .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        /* Dropdown container */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown button */
+    .dropbtn {
+    background-color: #58B2C9;
+    color: black;
+    padding: 10px 25px;
+    font-size: 17px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+    .dropdown-content {
+        display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <!-- Header section starts -->
+    <header class="fixed-top py-3">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="#" class="logo">DermAware<span class="fas fa-bacteria"></span></a>
+            <div id="menu-bar" class="fas fa-bars d-inline-block d-md-none"></div>
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#prevent">Skin Type and Disease</a>
+                <!--<a href="#check">Check My Skin Type</a>-->
+                <a href="#experts">Our Team</a>
+                <a href="#about">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Header section ends -->
+
+    <!-- Home section starts -->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="row min-vh-100 align-items-center pt-5">
+                <div class="col-md-6">
+                    <img src="/static/images/skin.jpeg.jpg" class="w-100" alt="Skin Care Image">
+                </div>
+                <div class="col-md-6 content text-center text-md-start pl-md-5">
+                    <span>Your skin is your best accessory </span>
+                    <h3>Protect yourself from skin disease</h3>
+                    <br>
+                    <button onclick="location.href='/signin';" class="link-btn"> Get started</button>
+
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home section ends -->
+
+    <!-- About section starts -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="row align-items-center flex-wrap-reverse">
+                <div class="col-md-6 content">
+                    <h3>What are Skin Diseases?</h3>
+                    <p>Skin diseases are conditions that affect your skin. These diseases may cause rashes, inflammation, itchiness, or other skin changes. Some skin conditions may be genetic, while lifestyle factors may cause others. Skin disease treatment may include medications, creams, or ointments, or lifestyle changes.</p>
+                    
+                    
+                </div>
+                <div class="col-md-6">
+                    <img src="/static/images/Skin_Disease.jpeg.jpg" class="w-100" alt="Skin Disease Image">
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="footer">
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center text-center text-sm-start">
+                <div class="box p-3 m-2">
+                    <h3>Skin Care</h3>
+                    <p>Skin care involves maintaining healthy skin through various practices and products."</p>
+                </div>
+                <div class="box p-3 m-2">
+                    <h3>Quick Links</h3>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Skin Type and Disease</a>
+                   <!-- <a href="#">Check My Skin Type</a>-->
+                    <a href="#">Our Team</a>
+                    <a href="#">Contact Us</a>
+                </div>
+                <div class="box p-3 m-2">
+                    <h3>Our Team</h3>
+                    <a href="#">SUHANI R BHAT</a>
+                    <a href="#">SUBHIKSHA KARNA</a>
+                    
+                </div>
+                <div class="box p-3 m-2">
+                    <h3>Contact Info</h3>
+                    <a href="#">9620639045</a>
+                    <a href="#">8660462069</a>
+                    <a href="#">suhanibhat2003@gmail.com</a>
+                    <a href="#">subhikshakarna@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section ends -->
+
+    <!-- JS file link -->
+    <script src="Front-end/main.js"></script>
+</body>
+</html>
+
+

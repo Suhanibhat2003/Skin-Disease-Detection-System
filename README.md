@@ -7,6 +7,8 @@
 ## Preview
 
 ![Preview Image](https://github.com/Suhanibhat2003/Skin-Disease-Detection-System/blob/main/Screenshot%20(21).png)
+![Preview Image](https://github.com/Suhanibhat2003/Skin-Disease-Detection-System/blob/main/Screenshot%20(22).png)
+![Preview Image](https://github.com/Suhanibhat2003/Skin-Disease-Detection-System/blob/main/Screenshot%20(24).png)
 
 
 

@@ -2,7 +2,7 @@
  
 </div>
 
-MedAI is a Flask application that utilizes AI algorithms to detect skin diseases and provide treatment susceptibility for patients. It offers an intelligent system that analyzes patient data and provides valuable insights for effective disease diagnosis and treatment planning.
+ DermAware is a Flask application that utilizes AI algorithms to detect skin diseases and provide treatment susceptibility for patients. It offers an intelligent system that analyzes patient data and provides valuable insights for effective disease diagnosis and treatment planning.
 
 ## Preview
 
@@ -10,7 +10,7 @@ MedAI is a Flask application that utilizes AI algorithms to detect skin diseases
 
 ## Features
 
-- Skin Disease Detection: Skin Disease Detection system leverages advanced AI algorithms to analyze patient symptoms and data to accurately detect various diseases.
+- Skin Disease Detection: DermAware leverages advanced AI algorithms to analyze patient symptoms and data to accurately detect various diseases.
 - Treatment Susceptibility: Based on the detected disease, it provides valuable information on treatment susceptibility, assisting healthcare professionals in making informed decisions.
 - User-Friendly Interface: It offers an intuitive and easy-to-use interface, making it accessible for both medical professionals and patients.
 - Data Privacy and Security: It prioritizes data privacy and security, ensuring that patient information is handled with the utmost confidentiality and adheres to industry standards.

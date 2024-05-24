@@ -6,7 +6,8 @@
 
 ## Preview
 
-![App Preview](/Screenshot (21).png)
+![Preview Image]()
+
 
 
 

@@ -68,10 +68,10 @@ Make sure you have the following dependencies installed before running the proje
 ### Run
 - Start the Flask development server:
    
-   env/Scripts/activate
-   py app.py
+   1) env/Scripts/activate
+   2) py app.py
   
 ### Open your web browser and visit the following URL:
 
 - http://localhost:3000
-w
+
